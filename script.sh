@@ -23,7 +23,7 @@ generate_config() {
             "listen": "0.0.0.0",
             "listen": "::",
             "port": 8100,
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "clients": [
                     {
@@ -35,7 +35,7 @@ generate_config() {
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/vless"
                 }
             },
             "sniffing": {
